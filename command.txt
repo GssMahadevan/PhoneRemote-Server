@@ -1,0 +1,2 @@
+cat pace_esp_capture.2.c |sed -e 's/unsigned int  //g;s/\[[0-9]*\]//g;s/ //g;s/{//g;s/}//g;s#;//.*$##g;s#//##g;/^\s*$/d' >pace_ir_codes.properties
+cat philips_tv_capture.1.c |sed -e 's/unsigned int  //g;s/\[[0-9]*\]//g;s/ //g;s/{//g;s/}//g;s#;//.*$##g;s#//##g;/^\s*$/d' >philips_ir_codes.properties
