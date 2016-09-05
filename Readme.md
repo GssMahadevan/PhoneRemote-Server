@@ -14,6 +14,7 @@ To acheive  goal, I selected [ESP8266 processor](https://en.wikipedia.org/wiki/E
 
 ## Architecture
  * [Use Case Diagram](https://github.com/GssMahadevan/PhoneRemote-Server/blob/master/design/use-case-diagram-by-umlet.png)
+ * [My Blog](http://mahadevangorti.blogspot.in/2016/09/15-tv-remote-control-using-smart-phone.html) for more info on goals of this prpject
 
 
 ### Pre Requisitives
