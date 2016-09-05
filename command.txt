@@ -1,2 +1,9 @@
+# Sample commands to process the IR capture codes from https://github.com/markszabo/IRremoteESP8266/tree/master/examples/IRrecvDumpV2 
+# as mentioned in Readme.md of https://github.com/GssMahadevan/PhoneRemote-ESPIRSender
+
+# When capturing the codes from IRrecvDumpV2, rename 'rawData' to your key-name of your remote.
+# Ensure that the key name has only [a-zA-Z0-9_] characters only.
+
+# below command might slighly change based on your remote codes
 cat pace_esp_capture.2.c |sed -e 's/unsigned int  //g;s/\[[0-9]*\]//g;s/ //g;s/{//g;s/}//g;s#;//.*$##g;s#//##g;/^\s*$/d' >pace_ir_codes.properties
 cat philips_tv_capture.1.c |sed -e 's/unsigned int  //g;s/\[[0-9]*\]//g;s/ //g;s/{//g;s/}//g;s#;//.*$##g;s#//##g;/^\s*$/d' >philips_ir_codes.properties
