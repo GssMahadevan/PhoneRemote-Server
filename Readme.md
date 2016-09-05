@@ -7,10 +7,14 @@ This project ultimate goal is to make any smartphone to control any IR based app
 
 To acheive  goal, I selected [ESP8266 processor](https://en.wikipedia.org/wiki/ESP8266) and [9$ Chip Computer](http://docs.getchip.com/chip.html). ESP8266 code kept as dumb as possible and move all IR-code intelligence (and related IR code database for various possible IR appliances) to a cheap Linux based SoC. For the time being, I chose 9$ Chip, but one can choose Raspberry (or any computer that runs Python and has network connectvity to ESP8266 chip that controls the IR appliance).
 
-
 ## Dependent Projects
  * [PhoneRemote-AndroidApp](https://github.com/GssMahadevan/PhoneRemote-AndroidApp)
  * [PhoneRemote-ESPIRSender](https://github.com/GssMahadevan/PhoneRemote-ESPIRSender)
+
+
+## Architecture
+ * [Use Case Diagram](https://github.com/GssMahadevan/PhoneRemote-Server/blob/master/design/use-case-diagram-by-umlet.png)
+
 
 ### Pre Requisitives
  * Install python 2.7
